@@ -1,35 +1,27 @@
 Algoritmo "AiFood"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 Var
 opcao : inteiro
-
+pedro, maria, joao : inteiro
 Inicio
-escreval("***********************")
-escreval("****SEJA BEM VINDO*****")
-escreval("***********************")
-escreval("1) PIZZA - R$ 68")
-escreval("2) SUCO E REFRI - R$ 10")
-escreval("3) CREPE - R$ 17.99")
-escreval("4) LASANHA - R$ 49.50")
-escreval("5) CANCELAR")
-escreval("6) FINALIZAR")
-
-escreval("Escolha uma opção:")
+escreval("Escolha o aluno para salvar a nota:")
 leia(opcao)
-
 escolha(opcao)
    caso 1
-        escreval ("Pizza")
+        leia(pedro)
+        escreval ("A nota de Pedro é ", pedro)
    caso 2
-        escreval ("Suco e refri")
+        leia(maria)
+        escreval ("A nota de Maria é", maria)
    caso 3
-        escreval("crepe")
-   caso 4
-        escreval("lasanha")
+        leia(joao)
+        escreval("A nota de joao é", joao)
    outrocaso
-        escreval("Não válido")
-fimEscolha
+        escreval("Não encontrado")
 
+fimEscolha
 
 
 Fimalgoritmo
