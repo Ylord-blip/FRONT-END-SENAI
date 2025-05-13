@@ -12,6 +12,7 @@ escreval("2) para maria")
 escreval("3) para joao")
 
 leia(opcao)
+escreval("Qual nota para o aluno desejado?")
 escolha(opcao)
    caso 1
         leia(pedro)
