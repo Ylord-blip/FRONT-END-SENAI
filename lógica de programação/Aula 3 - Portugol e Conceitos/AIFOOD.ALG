@@ -7,6 +7,10 @@ opcao : inteiro
 pedro, maria, joao : inteiro
 Inicio
 escreval("Escolha o aluno para salvar a nota:")
+escreval("1) para pedro")
+escreval("2) para maria")
+escreval("3) para joao")
+
 leia(opcao)
 escolha(opcao)
    caso 1

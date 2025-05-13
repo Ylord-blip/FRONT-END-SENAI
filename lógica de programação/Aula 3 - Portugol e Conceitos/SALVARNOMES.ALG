@@ -1,27 +1,32 @@
-Algoritmo "SalvarNomes"
+Algoritmo "SalvarNomesAlunos"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 
 Var
-pedro = CARACTERE
-maria = CARACTERE
-joao = CARACTERE
-opcao = inteiro
+opcao : inteiro
+pedro, maria, joao : inteiro
 Inicio
+escreval("Escolha o aluno para salvar a nota:")
+escreval("1) para pedro")
+escreval("2) para maria")
+escreval("3) para joao")
 
-escreval("Qual aluno você deseja selecionar")
-escreval("
-
-escreval("Escolha uma opção:")
 leia(opcao)
-
+escreval("Qual nota para o aluno desejado?")
 escolha(opcao)
    caso 1
-        escreval ("")
+        leia(pedro)
+        escreval ("A nota de Pedro é ", pedro)
    caso 2
-        escreval ("")
+        leia(maria)
+        escreval ("A nota de Maria é", maria)
    caso 3
-        escreval("")
+        leia(joao)
+        escreval("A nota de joao é", joao)
    outrocaso
-        escreval("Não válido")
+        escreval("Não encontrado")
+
 fimEscolha
+
 
 Fimalgoritmo
