@@ -1,4 +1,4 @@
-Algoritmo "AiFood"
+Algoritmo "NotasAlunos"
 // Disciplina   : [Linguagem e Lógica de Programação] 
 // Professor   : Antonio Carlos Nicolodi 
 
