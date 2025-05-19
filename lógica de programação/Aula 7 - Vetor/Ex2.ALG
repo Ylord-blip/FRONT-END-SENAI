@@ -3,7 +3,7 @@ Algoritmo "semnome"
 // informe quantos desses números  são maiores que 10
 Var
 numeros: vetor[1..5] de inteiro
-operacao : caractere
+
 
 
 Inicio
@@ -18,9 +18,12 @@ Inicio
             leia(numeros[4])
             escreval("Escreva o quinto numero")
             leia(numeros[5])
-            escolha(operacao)
-            caso numeros[1] > 10
-                 escreval(numero[1], " > 10)
+            se (numero[1] > 10) entao
+               escreval("número 1 maior que 10",numero[1] > 10)
+            se
+            fimSe
+            
+
             
 //fimProcedimento
 Fimalgoritmo
