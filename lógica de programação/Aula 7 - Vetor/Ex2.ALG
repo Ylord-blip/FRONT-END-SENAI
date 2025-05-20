@@ -1,29 +1,24 @@
-Algoritmo "semnome"
-// Faça um programa utilizando função ou procedimento que leia 5 números e
-// informe quantos desses números  são maiores que 10
-Var
-numeros: vetor[1..5] de inteiro
+Algoritmo "ex"
 
+Var
 
 
 Inicio
-//procedimento Ex1()
-            escreval("Escreva o primeiro numero")
-            leia(numeros[1])
-            escreval("Escreva o segundo numero")
-            leia(numeros[2])
-            escreval("Escreva o terceiro numero")
-            leia(numeros[3])
-            escreval("Escreva o quarto numero")
-            leia(numeros[4])
-            escreval("Escreva o quinto numero")
-            leia(numeros[5])
-            se (numero[1] > 10) entao
-               escreval("número 1 maior que 10",numero[1] > 10)
-            se
-            fimSe
-            
 
-            
-//fimProcedimento
+procedimento maioresQue10()
+   var
+     i, numero, maiores : inteiro
+   inicio
+   para i <- 1 ate 5 faca
+     leia(numero)
+
+     se (numero > 10)entao
+       maiores <- maiores + 1
+     fimSe
+   fimPara
+
+   escreval("São ",maiores," maiores que 10")
+fimProcedimento
+
+maioresQue10()
 Fimalgoritmo
