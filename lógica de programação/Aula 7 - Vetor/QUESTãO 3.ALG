@@ -1,4 +1,6 @@
-Algoritmo "Questão 3"
+Algoritmo "Questão 4PROVA"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
 // Ler 3 n?meros inteiros correspondentes
 // a n?meros apostados em uma loteria. Ler os 3 n?meros sorteados.
 // Informar quantos acertos o apostador fez.
@@ -30,12 +32,12 @@ Inicio
 
    escreval("--------------------------")
    se (acertos = 0) entao
-      escreval("Voc? n?o acertou nenhum!")
+      escreval("Você não acertou nenhum!")
    senao
       se (acertos > 0 ) e (acertos < 3) entao
          escreval("Voc? acertou ", acertos," n?meros!")
       senao
-         escreval("Voc? ganhou na loteria!!!")
+         escreval("Você acertou")
       fimse
    fimse
 Fimalgoritmo

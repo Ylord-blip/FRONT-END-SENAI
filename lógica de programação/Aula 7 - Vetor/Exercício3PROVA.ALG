@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "exercício3"
 // Disciplina   : [Linguagem e Lógica de Programação] 
 // Professor   : Antonio Carlos Nicolodi 
 // A prefeitura de uma cidade deseja fazer uma pesquisa entre seus
@@ -48,13 +48,13 @@ se (med3 > med2) ou (med3 > med1) entao
 fimSe
 fimSe
 fimSe
-se (med1 < 150) entao
+se (med1/med3*100 < 150) entao
    escreval("A primeira pessoa ganha menos que 150")
 senao
-se (med2 < 150) entao
+se (med2/med1*100 < 150) entao
    escreval("A segunda pessoa ganha menos que 150")
 senao
-se(med3 < 150) entao
+se(med3/med2*100 < 150) entao
    escreval("A terceira pessoa ganha menos que 150")
 fimSe
 fimSe
