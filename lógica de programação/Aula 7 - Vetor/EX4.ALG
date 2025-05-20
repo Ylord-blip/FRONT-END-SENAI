@@ -1,6 +1,7 @@
 Algoritmo "Ex4"
-// faça o cadastro de 2 usuarios com os vetores, nomeUsuario e senhaUsuario
-
+// Faça um algoritmo para ler dois vetores V1 e V2 de 5 números cada.
+// Calcular e escrever a quantidade de vezes que V1 e V2
+// possuem os mesmos números e nas mesmas posições.
 Var
    nomeUsuario: vetor[1..2] de caractere
    senhaUsuario: vetor[1..2] de caractere

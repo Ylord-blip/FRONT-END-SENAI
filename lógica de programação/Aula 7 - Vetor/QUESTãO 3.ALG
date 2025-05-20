@@ -1,6 +1,6 @@
-Algoritmo "Ex5"
-// Ler 3 números inteiros correspondentes
-// a números apostados em uma loteria. Ler os 3 números sorteados.
+Algoritmo "Questão 3"
+// Ler 3 n?meros inteiros correspondentes
+// a n?meros apostados em uma loteria. Ler os 3 n?meros sorteados.
 // Informar quantos acertos o apostador fez.
 Var
    numerosSorteados: vetor[1..3] de inteiro
@@ -8,12 +8,12 @@ Var
    contador: inteiro
    acertos: inteiro
 Inicio
-   escreval("Digite os números apostados:")
+   escreval("Digite os n?meros apostados:")
    para contador <- 1 ate 3 faca
       leia(numerosApostados[contador])
    fimPara
    escreval("--------------------------")
-   escreval("Digite os números sorteados: ")
+   escreval("Digite os n?meros sorteados: ")
    para contador <- 1 ate 3 faca
       leia(numerosSorteados[contador])
    fimPara
@@ -30,12 +30,12 @@ Inicio
 
    escreval("--------------------------")
    se (acertos = 0) entao
-      escreval("Você não acertou nenhum!")
+      escreval("Voc? n?o acertou nenhum!")
    senao
       se (acertos > 0 ) e (acertos < 3) entao
-         escreval("Você acertou ", acertos," números!")
+         escreval("Voc? acertou ", acertos," n?meros!")
       senao
-         escreval("Você ganhou na loteria!!!")
+         escreval("Voc? ganhou na loteria!!!")
       fimse
    fimse
 Fimalgoritmo
