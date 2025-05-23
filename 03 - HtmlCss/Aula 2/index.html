@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula css</title>
+    <style>
+
+        /* SELETOR VIA ALL(*) (SELECIONA TUDO) */
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        /*SELETOR VIA TAG */
+        h1{
+            /* font -size - tamanho da fonte*/
+           font-size: 40pt;
+        }
+
+        body{
+            /* background-color - cor de fundo*/
+            background-color: rgb(230, 236, 247);
+            /* text-align - alinhamento do texto*/
+            text-align: center;
+        }
+
+        /*SELETOR VIA CLASS (PODEM VARIOS ELEMENTOS)*/
+        .paragrafo{
+            color: rgba(0, 0, 0, 0.808);
+        }
+
+        /*SELETOR VIA ID (PODE SOMENTE 1)*/
+        #palavra{
+            color: rgb(241, 12, 12);
+        }
+    </style>
+</head>
+
+<!-- autoidentação - alt + shift + f -->
+<!-- quebra de linha (apenas visual) - alt + z -->
+<body>
+    <h1>TÍTULO 2</h1>
+    <h1 style="color: rgb(231, 117, 117);">TÍTULO INTERESSANTE </h1>
+    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione nemo illum recusandae eaque laboriosam
+        <span id="palavra">reiciendis accusantium sed, eveniet error nisi assumenda facere accusamus quasi ipsam quas</span> sint, commodi, magnam
+        veniam.</p>
+    <p class="paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa neque unde dolorem iste a debitis maxime at
+        accusamus tempora minima molestiae veritatis, sequi quam adipisci laborum harum repudiandae ea fugit.</p>
+    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dolores corrupti maiores id delectus iure
+        nisi veniam esse, mollitia repellat tempore consequatur, atque illum voluptatem aliquid velit incidunt labore
+        quo?</p>
+</body>
+
+</html>
