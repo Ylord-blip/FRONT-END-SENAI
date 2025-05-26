@@ -1,0 +1,10 @@
+.produto{
+    margin-right: 200px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.produtoImg{
+    width: 100%;
+}
