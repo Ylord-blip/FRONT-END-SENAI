@@ -1,0 +1,23 @@
+.layout{
+    height: 10px;
+    padding: 10px;
+    background-color: #e8e6e6;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.layer{
+    width: 80%;
+    padding: 1px;
+    background-color: #e8e6e6;
+    display: flex;
+    justify-content: end;
+
+}
+.imagem{
+    height: 80%; 
+    background-color: aquamarine;
+    align-content: flex-end;
+
+}
