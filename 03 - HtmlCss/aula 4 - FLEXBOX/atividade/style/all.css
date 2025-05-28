@@ -1,14 +1,15 @@
 .layout{
     height: 10px;
     padding: 10px;
+    width: 400px;
     background-color: #e8e6e6;
     display: flex;
     gap: 20px;
-    justify-content: center;
+   
 }
 
 .layer{
-    width: 80%;
+    width: 100%;
     padding: 1px;
     background-color: #e8e6e6;
     display: flex;
@@ -16,8 +17,47 @@
 
 }
 .imagem{
-    height: 80%; 
+    height: 350px;
+    width: 100%;
+    padding: 1px;
     background-color: aquamarine;
-    align-content: flex-end;
-
+    display: flex;
+    justify-content: center;
+}
+.base{
+    background-color: #e8e6e6;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+}
+main{
+    display: flex;
+}
+#black{
+    background-color: white;
+    display: flex;
+    
+}
+.servico{
+    width: 80%;
+    background-color:#e8e6e6;''
+    display: flex;
+}
+.agenda{
+    width: 50%;
+    background-color: darkgoldenrod;
+}
+#pagina{
+    width: 80%;
+    margin: 0px auto;
+}
+.mapa{
+    background-color: white;
+    margin: 5px ;
+}
+.home{
+    margin: 10px;
+}
+#p1{
+    font-size: 25px;
 }
