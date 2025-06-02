@@ -1,0 +1,54 @@
+
+.layout{
+    height: 10px;
+    padding: 10px;
+    width: 400px;
+    background-color: #e8e6e6;
+    display: flex;
+    gap: 20px;
+    background-color: darkblue;
+    color: aqua;
+}
+.layer{
+    width: 100%;
+    padding: 1px;
+    background-color: #e8e6e6;
+    display: flex;
+    justify-content: end;
+    background-color: darkblue;
+    color: #e8e6e6;
+}
+.container-menu-imagem {
+    display: flex;
+    gap: 20px; /* espaço entre caixa e imagem */
+    align-items: flex-start; /* alinhar topo */
+    width: 100%; /* ocupa todo espaço disponível */
+    padding: 10px;
+}
+
+.caixa {
+    width: 150px; /* largura fixa para menu */
+    background-color: #004080; /* só pra destacar */
+    color: rgb(17, 17, 17);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.caixa .opções {
+    margin-bottom: 8px;
+    padding: 6px;
+    background-color: #0066cc;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#imagem {
+    flex-grow: 1; 
+    max-width: 70%; 
+    height: auto;
+    background-color: rgb(12, 12, 12);
+    border-radius: 8px;
+}
