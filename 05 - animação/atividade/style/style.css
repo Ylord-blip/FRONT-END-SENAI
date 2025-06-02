@@ -52,3 +52,72 @@
     background-color: rgb(12, 12, 12);
     border-radius: 8px;
 }
+.replace {
+    transform: translateY(1);
+    opacity: 1;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .replace {
+      -webkit-animation: fade-in 1.5s ease-out infinite;
+              animation: fade-in 1.5s ease-out infinite;
+      animation-composition: replace;
+    }
+    .replace:hover {
+      -webkit-animation-play-state: paused;
+              animation-play-state: paused;
+    }
+  }
+  
+  @-webkit-keyframes fade-in {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+  }
+  @layer demo {
+    html,
+  body {
+      height: 100%;
+    }
+  
+    body {
+      background-color: rgb(10, 10, 10);
+      display: flex;
+      flex-direction: column;
+      font-family: system-ui;
+      align-items: center;
+      place-content: center;
+    }
+  
+    .toast {
+      background: #674bce;
+      border: 0.5px solid #bbb;
+      border-radius: 0.5rem;
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+      font-size: 1.25rem;
+      height: 1.5rem;
+      margin-block: 1rem;
+      margin-inline: auto;
+      padding-block: 0.5rem;
+      padding-inline: 1.5rem;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+    }
+    .toast p {
+      padding: 0;
+      margin: 0;
+      line-height: 1;
+    }
+  }
+
+.cor{
+    color: white;
+}
