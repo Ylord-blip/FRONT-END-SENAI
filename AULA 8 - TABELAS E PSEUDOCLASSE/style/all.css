@@ -8,7 +8,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: rgb(184, 166, 166);
     margin: 10px auto;
     padding: 20px;
 }
@@ -33,6 +33,43 @@ th{
 
 th:hover{
     background-color: green;
-    cursor: crosshair;
+    cursor: pointer;
 }
 
+td:hover{
+    background-color: rgb(221, 187, 187);
+    cursor: pointer;
+}
+
+td:active{
+    background-color: blueviolet;
+}
+
+input{
+    background-color: rgb(221, 187, 187);
+    transition: 1s;
+}
+
+/* PSEUDOELEMENTO - "Elementos do navegador", geralmente "::elemento" */
+/* PSEUDOCLASSE - "Classes de eventos", geralmente "elemento::ação" */
+
+input:focus{
+    padding: 3px;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 7px;
+}
+
+::placeholder{
+    color: blue; 
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background-color: teal;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
