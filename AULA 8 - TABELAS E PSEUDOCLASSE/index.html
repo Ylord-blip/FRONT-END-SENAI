@@ -41,11 +41,37 @@
             : 
         </div>
     </section>
+    <!-- table - puxa tabela -->
+    <!-- th - 'table heading', titulo da tabela -->
+    <!-- td - 'table data', dados da tabela -->
+    <!-- tr - 'table row', linha da tabela -->
+    <!-- thead, tbody, tfoot - mesma organização do html padrão, sendo cabeçalho, corpo e rodapé -->
+    <!-- colspan - rowspan - mesclar colunas ou linhas -->
     <section id="tabelaCompleta">
         <table>
-            <thead></thead>
+            <thead>
+                <th>/</th>
+                <th>NOME</th>
+                <th>TIPO</th>
+                <th>VALOR</th>
+                <th>PESO</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>QUEIJO</td>
+                <td>MUSSARELA</td>
+                <td>7.99</td>
+                <td>150 g</td>
+            <div id="espaco"></div>
+            </tr></thead>           
+            
             <tbody></tbody>
-            <tfoot></tfoot>
+            <tfoot>
+                <tr>
+                    <th colspan="4"> SUBTOTAL</th>
+                    <td>R$ 500</td>
+                </tr>
+            </tfoot>
         </table>
     </section>
 </body>

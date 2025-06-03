@@ -73,3 +73,14 @@ input:focus{
     right: 0%;
     top: 0%;
 }
+
+#espaco{
+    width: 1px;
+    height: 1000px;
+}
+
+thead{
+    top: -1;
+    position: sticky;
+
+}
