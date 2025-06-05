@@ -9,4 +9,29 @@
     margin: 20px auto;
     background-color: bisque;
 }
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(43, 43, 43);
+    padding: 10px 0px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: crimson;
+}
+
+#logo img{
+    width: 24px;
+}
 
