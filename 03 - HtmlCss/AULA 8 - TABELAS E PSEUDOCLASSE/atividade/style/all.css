@@ -1,0 +1,24 @@
+*{
+    margin: 20px auto;
+}
+#img{
+    display: flex;
+    width: 600px;
+    height: 290px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin: -20px auto;
+    
+}
+.botom{
+    display: flex;
+    background-color: antiquewhite;
+    
+}
+#input{
+    background-color: aquamarine;
+    height: 500px;
+    margin: 20px auto;
+    
+}
