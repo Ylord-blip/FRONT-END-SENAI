@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --corPrimaria : blue;
+    --design: rgb(255 , 255 , 0);
+    --fontePrincipal : 'verdana';
+    --tamanhoFonte: 14pt;
+    --postTamanho: 300px;
+}
+
+header{
+    background-color: var(--corPrimaria);
+}
+
+footer{
+    background-color: var(--corPrimaria);
+}
