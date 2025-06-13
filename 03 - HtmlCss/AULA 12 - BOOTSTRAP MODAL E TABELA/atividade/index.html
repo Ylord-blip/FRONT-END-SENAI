@@ -10,19 +10,19 @@
     
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header id="layer">
+      <nav class="navbar navbar-expand-lg bg-info-subtle">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/logoBlack.svg" alt="Sua Imagem" class="img-fluid" style="max-height: 30px;"> <!-- Ajuste o tamanho da imagem aqui -->
-          </a>
+          <a class="navbar-brand" href="#"></a>
+          <img src="img/logoBlack.svg" alt="">
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Ajuda</a>
+                <a class="nav-link" href="#">Ajuda</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Empréstimos</a>
@@ -31,14 +31,12 @@
                 <a class="nav-link active" aria-current="page" href="#">Sua conta bancária</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <button class="btn btn-outline-success" type="submit">Abra sua conta</button>
-            </form>
+  
+            <button class="btn btn-outline-success" type="submit">Abra sua conta</button>
+            
           </div>
         </div>
       </nav>
-        </div>
-    </nav>
     </header>
 
     <main>
@@ -46,11 +44,14 @@
             <!-- <img id="banner" src="img/banner.jpg" alt="Imagem da tela inicial do site"> -->
             <div id="mensagem">
             
-                <p>SEJA BEM VINDO AO BANCO 90!</p>
+                <h1>SEJA BEM VINDO AO BANCO 90!</h1>
+
+                <p>Aqui você encotra o melhor serviço e atendimento do Brasil.</p>
+              <button id="conta" type="button">Faça sua conta agora</button>
                 </div>
         </div>
         
-        
+        <!-- botões de escolha de qual pagamento -->
            <h1 id="pagamento">ESCOLHA SUA FORMA DE PAGAMENTO PREFERIDA</h1> 
         <div id="button">
             <button type="button" class="p-5 w-50 bg-transparent border border-black" data-toggle="button" aria-pressed="false" autocomplete="off">
@@ -66,7 +67,104 @@
             <p id="formaPagamento3">DINHEIRO</p>
           </button>
         </div>
+
+        <div id="servico">
+          <div>
+            <h2>Contrate nossos serviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magni consequuntur voluptatem cum, repellat consequatur ipsam, atque quae voluptate rerum laboriosam? Error quo corporis deleniti sed veritatis pariatur illo accusantium.
+              <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore eveniet accusantium illum eum nisi molestiae similique officia, pariatur quos laboriosam, alias ea voluptate in laborum dolorem esse praesentium ipsam necessitatibus?
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deleniti similique aut unde animi dignissimos accusamus repellendus quo vero totam! A beatae numquam delectus totam, deleniti consectetur? In, quos eum?
+            </p>
+     
+          </div>
+          
+          <div id="imagem">
+      
+          </div>
+        </div>
+
+        <section
+        id="sobrePagementos"> 
+          <h1 id="cartao">SEJA CLIENTE DE DIVERSAS MANEIRAS</h1> 
+          <div id="button">
+            <div id="formaCartao1">
+            <button type="button" class="p-5 w-50 bg-transparent " data-toggle="button" aria-pressed="false"
+            autocomplete="off"></button>
+          </div>
+            <div id="formaCartao2">
+
+            <button type="button" class="p-5 w-50 bg-transparent " data-toggle="button" aria-pressed="false" autocomplete="off"></button>
+          </div>
+          <div  id="formaCartao3">
+            <button type="button" class="p-5 w-50 bg-transparent" data-toggle="button" aria-pressed="false" autocomplete="off"></button>
+          </div>
+          </div>
+        </section>
+
+
+
+        <aside class="w-50 p-5" id="valoresSobreCursos">
+          <h1 id="atendimento">Horários de atendimento</h1>
+         <table class="table">
+              <thead>
+                  <th class="bg-danger text-white">SEGUNDA</th>
+                  <th class="bg-danger text-white">TERÇA</th>
+                  <th class="bg-danger text-white">QUARTA</th>
+                  <th class="bg-danger text-white">QUINTA</th>
+                  <th class="bg-danger text-white">SEXTA</th>
+
+              </tr>
+              <tr>
+                <th class="bg-danger text-white">Marcelo</th>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+              </tr>
+              <tr>
+                <th class="bg-danger text-white">Daniela</th>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+              </tr>
+              <tr>
+                <th class="bg-danger text-white" id="">João</th>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+                  <td> 9:00 até as <br> 13:00</td>
+              </thead>
+         </table>
+      </aside>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    ...
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+</div>
+</div>
+  </section>
     </main>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
