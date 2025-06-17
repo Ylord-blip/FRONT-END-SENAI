@@ -3,67 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/all.css">
+    <title>Site Play games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="all.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/stadia_controller_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
 </head>
-<body>
-    <header id="layout">
-            <nav class="navbar navbar-expand-lg bg-danger-subtle p-3">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#" style="color: rgb(0, 0, 0);">Play games</a>
-                <img src="img/joystick_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" >
-
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-3 mb-lg-0">
-                  </ul>
-                  <li class="nav-item p-1">
-                    <a aria-current="page" style="color: rgb(0, 0, 0);" href="Conta.html">Faça sua conta</a>
-                  </li>
-                </div>
-              </div>
-            </nav>
-    </header>
-
-
-
-    <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-50 offset-md-5 d-flex justify-content-center align-items-center" style="height: 200px;">
+    <body class="d-flex align-itens-center py-4 bg-dark h-100">
+        <main class="w-100 m-auto form-container">
             <form>
-              
-              <div id="formulario">
-               <form>
-                 <div class="form-group">
-                   <label for="exampleInputEmail1">Email address</label>
-                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                 </div>
-                 
-                 <div class="form-group">
-                   <label for="exampleInputPassword1">Password</label>
-                   <input type="password" class="form-control" id="exampleInputPassword1">
-                 </div>
-                 <div class="form-group form-check">
-                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                   <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                 </div>
-                 <button type="submit" class="btn btn-primary">Submit</button>
-                 
-               </form>
-            </form>
-          </div>
-        </div>
-      </div>
-      <div id="imagem">
-      <img src="img/razer-wolverine-v2-pro-thumbsticks-desktop.jpg" width="900px" height="500px" >
-    </div>
+                <img src="img/img.svg" class="mb-4" height="57" width="72"/>
+                <h1 class="h3 mb-3 fw-normal" style="color: rgb(255, 255, 255);"> Faça seu login</h1>
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="your-email@gmail.com"/>
+                    <label for="floatingInput" style="color: rgb(0, 0, 0);">Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control " id="floatingInput" placeholder="password">
+                    <label for="floatingInput" style="color: rgb(0, 0, 0);">password</label>
+                <div>
+                <div class="form-check text-start my-3">
+                    <input type="checkbox" class="form-check-input"  id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault" style="color: rgb(255, 255, 255);">Remember me</label>
+                </div>
+                <a href="pagina1.html" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
+                    Login
+                  </a>
+                <a href="Conta.html" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
+                Criar conta
+                </a>
+         </form>  
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-    crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
