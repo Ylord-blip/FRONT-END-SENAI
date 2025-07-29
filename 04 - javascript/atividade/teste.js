@@ -1,0 +1,1 @@
+const idade = prompt(document.getElementById("idade"))
