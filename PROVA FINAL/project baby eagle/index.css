@@ -80,3 +80,42 @@ body.dark-mode .navbar-custom .navbar-brand img {
   background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
 
 }
+
+#servico,
+#servico2 {
+  display: flex;
+  flex-direction: row;  
+  margin-bottom: 40px;  
+}
+
+
+#servico, 
+#servico2 {
+  width: 100%;
+}
+
+
+#servico{
+    background-color: rgb(37, 37, 37);
+    padding: 100px;
+    display: flex;
+}
+
+#servico2{
+    background-color: #030207;
+    padding: 100px;
+    display: flex;
+}
+#imagem2{
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-image: url(img/criacao-do-peixe-cirurgiao-amarelo-em-aquario.jpg);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+     border-radius: 15px;
+    background-position: center;
+    padding: 200px;
+
+}
